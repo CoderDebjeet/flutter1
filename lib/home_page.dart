@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
             child:  Text("Welcome to $days days of $name starting at $date"),
           ),
         ),
-        drawer: const Drawer(),
+        drawer:  Drawer(),
       );
   }
 }
