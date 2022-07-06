@@ -1,18 +1,21 @@
 import 'package:flutter/material.dart';
 
 void main() {
-   runApp(const MyApp());
+   runApp(MyApp());
 }
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
+    int days=30;
+    String name="flutter";
+    var date = "Wednesday";
+    const pi=3.14;
+    
     return  MaterialApp(
       home: Material(
         child: Center(
-        child: Container(
-        child: const Text("Welcome"),
+          child: Container(
+          child:  Text("Welcome to $days days of $name starting at $date"),
     ),
     ),
     ),
